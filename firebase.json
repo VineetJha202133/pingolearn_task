@@ -1,0 +1,29 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "pingo-learn-task",
+          "appId": "1:717129472935:android:ee0895200d31c7061ff482",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pingo-learn-task",
+          "configurations": {
+            "android": "1:717129472935:android:ee0895200d31c7061ff482",
+            "ios": "1:717129472935:ios:a430b0787f4687d71ff482",
+            "macos": "1:717129472935:ios:a430b0787f4687d71ff482",
+            "web": "1:717129472935:web:959f4544337475251ff482",
+            "windows": "1:717129472935:web:465ac9b5f1d5e12e1ff482"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
